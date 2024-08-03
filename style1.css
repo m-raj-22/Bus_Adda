@@ -5,10 +5,10 @@
 .section1 {
   float: left;
   width: 25vw;
-  height: 100vh;
   background-color: #f1f1f1;
   padding: 10px;
   margin: 0;
+  align-items: center;
 }
 
 .section1 a {
@@ -26,13 +26,14 @@
 /* Style the list of buses */
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 10;
+  margin: 10;
 }
 
 li {
-  padding: 12px;
-  margin-bottom: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #ddd;
   cursor: pointer;
 }
@@ -64,7 +65,8 @@ li:hover .details {
   flex-direction: column;
 }
 .second {
-  margin-top: 70px;
+  margin-top: 20px;
+  align-self: center
 }
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
@@ -103,7 +105,7 @@ li:hover .details {
 }
 
 .section {
-  /* height: 400px; */
+  height: 400px;
   background-color: #222;
   display: flex;
   align-items: center;
@@ -527,7 +529,7 @@ header .search-bar-container label:hover {
 
 .box {
   width: 1200px;
-  /* max-width: 0%; */
+  max-width: 0%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 15px;
@@ -1232,8 +1234,8 @@ a:active {
 }
 
 #inner-container {
+  align-content: center;
     color: #222;
-    background: url("C:\Users\manis\Downloads\New folder (5)\New folder (5)\img\img12.jpg");
     width: 818px;
     height: 234px;
     border: 1px solid #100e0e;
@@ -1306,9 +1308,11 @@ h1 {
 }
 
 #step1 {
-    position: absolute;
+    align-content: center;
+    position: relative;
     height: 100%;
     width: 100%;
+    margin-left: 270px;
 }
 
 #step2 {
