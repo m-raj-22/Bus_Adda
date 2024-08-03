@@ -14,7 +14,11 @@ Bus Adda is a frontend website that allows users to view bus locations, book tic
 - **CSS3:** For styling the website.
 - **JavaScript:** For interactivity and dynamic content.
 
-- ## License
+## Demo
+
+You can view the live demo of the portfolio website [here](https://m-raj-22.github.io/Bus_Adda/).
+
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
