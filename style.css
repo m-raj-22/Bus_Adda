@@ -3,6 +3,58 @@
 :root{
   --orange:#ffa500;
 }
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header20 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.car-icon {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.car p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .header20 h1 {
+        font-size: 28px;
+    }
+
+    .car p {
+        font-size: 14px;
+    }
+
+    .car {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}
 
 *{
   font-family: 'Nunito', sans-serif;
